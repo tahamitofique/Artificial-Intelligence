@@ -12,5 +12,5 @@ network.train(trainingData,{
     iterations:200
 });
 
-const output=network.run('pendrive');
+const output=network.run('pendrive error');
 console.log(`category: ${output}`);
