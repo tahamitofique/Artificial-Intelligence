@@ -1,5 +1,5 @@
 const brain = require('brain.js');
-const data = require('./data.json');
+const data = require('./data/data.json');
 
 const network = new brain.recurrent.LSTM();
 
