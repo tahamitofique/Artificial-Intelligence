@@ -18,4 +18,4 @@ const val={
 };
 const output=network.run([val.a,val.b]);
 
-console.log(`Winner team: ${output>0.5?val.b:val.a} ...${output}`);
+console.log(`Winner team:: ${output>0.5?val.b:val.a} ...${output}`);
