@@ -116,7 +116,7 @@ const trainingData = [
 
 net.train(trainingData);
 
-const output = brain.likely(toArray(
+const result = brain.likely(toArray(
     '#  #  #' +
     '#     #' +
     '#     #' +
@@ -126,7 +126,7 @@ const output = brain.likely(toArray(
     ' #     '
 ),net); 
 
-/*const output = net.run(toArray(
+const output = net.run(toArray(
     '#  #  #' +
     '#     #' +
     '#     #' +
@@ -134,5 +134,6 @@ const output = brain.likely(toArray(
     '    #  ' +
     '   #   ' +
     ' #     '
-));*/
+));
+console.log(result);
 console.log(output);
